@@ -1,0 +1,41 @@
+$text: #fff;
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+@media only screen and (max-width: 1400px) {
+    #myVideo {
+        position: fixed;
+        right: -35vw;
+        bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #myVideo {
+        position: fixed;
+        right: -120vw;
+        bottom: 0;
+    }
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    // background: rgba(0, 0, 0, 0.5);
+    color: $text;
+    width: 100%;
+    padding: 20px;
+}
+
