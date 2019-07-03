@@ -87,4 +87,30 @@ button {
 }
 
 @media only screen and (max-width: 600px) {
+    body {
+        flex-wrap: wrap;
+        overflow: scroll;
+    }
+
+    img {
+        height: 300px;
+        left: -20px;
+        top: -25px;
+        position: absolute;
+    }
+
+    .container {
+        padding-left: 10px;
+        width: 400px;
+    }
+
+    input {
+        width: 70%;
+    }
+
+    button {
+        width: 20%;
+        transform: translateY(-9.5px);
+    }
+    
 }
