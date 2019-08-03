@@ -133,6 +133,10 @@ button:hover {
     width: 20%;
     transform: translateY(-9.5px);
   }
+
+  .try-it {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
