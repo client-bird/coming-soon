@@ -17,6 +17,7 @@ html, body {
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
 }
 
 p {
@@ -83,6 +84,37 @@ button {
     }
 }
 
+
+.try-it {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+
+    p {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 8px;
+    }
+
+    a {
+        margin-top: 10px;
+        width: 300px;
+        height: 60px;
+        background: white;
+        color: rgba(41, 128, 185,1.0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+}
+
+
 @media only screen and (max-width: 1400px) {
 }
 
@@ -112,5 +144,6 @@ button {
         width: 20%;
         transform: translateY(-9.5px);
     }
+
     
 }
